@@ -1,8 +1,4 @@
-type User = {
-  id: number
-  name: string
-  email: string
-}
+import { User } from '@/types/user'
 
 export default async function userServer() {
   await new Promise((resolve) => setTimeout(resolve, 2000))
